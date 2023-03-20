@@ -15,7 +15,7 @@ REQUIRED SECTIONS:
 - Authors
 - Future Features
 - Contributing
-- Show your support
+- Show yo ur support
 - Acknowledgements
 - License
 
@@ -27,10 +27,9 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b> Math Magician README Template</b></h3>
 
 </div>
 
@@ -40,16 +39,13 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Deployment link](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -60,58 +56,27 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Math Magician <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+This is the first project of the Math Magicians application. You will set up the environment and tools needed to develop a React application. In the following projects, you will develop the actual application.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **REACT**
+- **JavaScript**
+- **HTML/CSS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Deployment link and project presentation <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Deployment link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,63 +84,69 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+To get the local copy up and running, follow these steps.
 
-To get a local copy up and running, follow these steps.
+-Clone the Repo or Download the Zip file
+[Link to repo](https://github.com/ernestkorir/mathCal)
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+-Git/Github
+-REACT knowledge
+-VS code or any other equivalent tool.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/ernestkorir/mathCal
+  cd mathCal
 ```
---->
+
 
 ### Install
+- This command will download all the dependancies of the project
 
-Install this project with:
 
-<!--
-Example command:
+ ```sh
+npm install
+ ```
 
-```sh
-  cd my-project
-  gem install
-```
---->
+### To Run the Project on the Broswer
 
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
+- To run the project on the broswer to view it, Kindly run this command
 
 ```sh
-  rails server
+npm run dev
 ```
---->
+
 
 ### Run tests
 
 To run tests, run the following command:
+
+For tracking linter errors locally you need to follow these steps:
+
+After cloning the project you need to run these commands
+
+
+For tracking linter errors in HTML files run:
+
+- `npx hint .`
+
+For tracking linter errors in CSS or SASS files run:
+
+- `npx stylelint "**/*.{css,scss}`
+
+And For tracking linter errors in JavaScript files run:
+
+- `npx eslint .`
 
 <!--
 Example command:
@@ -185,37 +156,17 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Tamara Dimov**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ErnestKorir](https://github.com/ernestkorir)
+- Twitter: [@Ernestbore3](https://twitter.com/Ernestbore3)
+- LinkedIn: [Ernest korir](https://www.linkedin.com/in/ernest-bore-3b6042211/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +174,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **CALCULATOR**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +192,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +200,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+We would like to thank Microverse for granting me the knowledge to do this.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -267,13 +210,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **What is the licensing policy of the project?**
 
-  - [Answer_1]
+  - The project is MIT licensed, please refer to the License section
 
-- **[Question_2]**
+- **Great page!**
 
-  - [Answer_2]
+  - Thank you very much
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,7 +224,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
