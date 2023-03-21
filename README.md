@@ -162,7 +162,7 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Tamara Dimov**
+👤 **Ernest Korir**
 
 - GitHub: [@ErnestKorir](https://github.com/ernestkorir)
 - Twitter: [@Ernestbore3](https://twitter.com/Ernestbore3)
