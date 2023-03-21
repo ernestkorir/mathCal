@@ -123,7 +123,7 @@ npm install
 - To run the project on the broswer to view it, Kindly run this command
 
 ```sh
-npm run dev
+npm run
 ```
 
 
@@ -162,7 +162,7 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Tamara Dimov**
+👤 **Ernest Korir**
 
 - GitHub: [@ErnestKorir](https://github.com/ernestkorir)
 - Twitter: [@Ernestbore3](https://twitter.com/Ernestbore3)
