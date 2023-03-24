@@ -62,13 +62,13 @@ This is the first project of the Math Magicians application. You will set up the
 
 ## 🛠 Built With <a name="built-with"></a>
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
 - **REACT**
 - **JavaScript**
 - **HTML/CSS**
+
+### Key Features <a name="key-features"></a>
+
+Perform arithmetric operation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@ This is the first project of the Math Magicians application. You will set up the
 
 ## 🚀 Deployment link and project presentation <a name="live-demo"></a>
 
-- [Deployment link](https://google.com)
+- Not yet deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,7 +174,8 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **CALCULATOR**
+- Add different pages ie home
+- Use routes to link them up
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
