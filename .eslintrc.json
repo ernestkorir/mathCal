@@ -20,7 +20,18 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "react/prop-types": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 300,
+        "tabWidth": 2,
+        "ignoreComments": true, //"comments": 80
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ]
   },
   "ignorePatterns": [
     "dist/",
