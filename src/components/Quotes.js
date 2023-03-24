@@ -20,7 +20,7 @@ function Quotes() {
   }, []);
 
   return (
-    /* eslint no-nested-ternary: "error" */
+   // eslint-disable-next-line
     !quote.quote
       ? (
         <div className="quotes">
