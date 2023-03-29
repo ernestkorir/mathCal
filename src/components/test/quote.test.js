@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Quote from '../../../../math-magician/src/components/Quote';
+import Quotes from '../Quotes';
 
 it('renders correctly', () => {
-  const tree = renderer.create(<Quote />).toJSON();
+  const tree = renderer.create(<Quotes />).toJSON();
   expect(tree).toMatchSnapshot();
 });

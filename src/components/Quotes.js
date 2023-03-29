@@ -13,13 +13,16 @@ function Quotes() {
     const fetchQuote = async () => {
       setIsLoading(true);
       try {
-        const res = await fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
-          method: 'GET',
-          headers: {
-            'X-Api-Key': apiKey,
-            'Content-Type': 'application/json',
-          },
-        });
+        const res = await fetch(
+          `https://api.api-ninjas.com/v1/quotes?category=${category}`,
+          {
+            method: 'GET',
+            headers: {
+              'X-Api-Key': apiKey,
+              'Content-Type': 'application/json',
+            },
+          }
+        );
         const json = await res.json();
         setData(json);
       } catch (error) {
@@ -40,7 +43,9 @@ function Quotes() {
   if (isLoading) {
     return (
       <div>
-        <div className="spinner"><FaCircleNotch size={70} /></div>
+        <div className="spinner" data-testid="loading-spinner">
+          <FaCircleNotch size={70} />
+        </div>
       </div>
     );
   }
