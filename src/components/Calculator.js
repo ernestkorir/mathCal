@@ -3,7 +3,13 @@ import { useState } from 'react';
 import CalculatorRow from './CalculatorRow';
 
 function Calculator() {
-  const RowData = [['AC', '+/-', '%', '÷'], ['7', '8', '9', 'x'], ['4', '5', '6', '-'], ['1', '2', '3', '+'], ['0', '.', '=']];
+  const RowData = [
+    ['AC', '+/-', '%', '÷'],
+    ['7', '8', '9', 'x'],
+    ['4', '5', '6', '-'],
+    ['1', '2', '3', '+'],
+    ['0', '.', '='],
+  ];
 
   const [inputData, setInputData] = useState({
     total: null,
@@ -18,7 +24,14 @@ function Calculator() {
         {inputData.operation}
         {inputData.next}
       </div>
-      {RowData.map((RowDataItem, index) => <CalculatorRow key={index} inputData={inputData} setInputData={setInputData} data={RowDataItem} />)}
+      {RowData.map((RowDataItem, index) => (
+        <CalculatorRow
+          key={index}
+          inputData={inputData}
+          setInputData={setInputData}
+          data={RowDataItem}
+        />
+      ))}
     </div>
   );
 }

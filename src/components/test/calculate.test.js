@@ -1,4 +1,4 @@
-import calculate from "../../logic/calculate";
+import calculate from '../../logic/calculate';
 
 describe('calculate', () => {
   it('should clear the calculator when "AC" is pressed', () => {

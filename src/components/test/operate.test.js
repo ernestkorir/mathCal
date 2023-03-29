@@ -1,5 +1,3 @@
-import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
 import operate from '../../logic/operate';
 
 describe('operate', () => {
@@ -29,7 +27,7 @@ describe('operate', () => {
 
   it('should handle modulo by zero', () => {
     expect(operate('10', '0', '%')).toBe(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
 
