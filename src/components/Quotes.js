@@ -40,7 +40,9 @@ function Quotes() {
   if (isLoading) {
     return (
       <div>
-        <div className="spinner"><FaCircleNotch size={70} /></div>
+        <div className="spinner">
+          <FaCircleNotch size={70} />
+        </div>
       </div>
     );
   }
