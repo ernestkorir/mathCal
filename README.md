@@ -76,7 +76,7 @@ Perform arithmetric operation
 
 ## 🚀 Deployment link and project presentation <a name="live-demo"></a>
 
-- Not yet deployed
+- [Live link](https://math-cal-38fi.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
